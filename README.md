@@ -22,3 +22,5 @@ JVM内存分为三个区：
 Android中会造成内存泄漏的常见情景：
   1：全局进程的static变量。
   2：活在Activity生命周期之外的线程。
+
+Android app的检测工具：https://github.com/square/leakcanary
